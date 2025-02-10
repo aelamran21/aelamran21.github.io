@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/Logo-AEA.PNG">
+    <title>SOBRE MI - Anouar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <title>Contacots</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Raleway', sans-serif;
+          background: linear-gradient(-45deg, #003333, #004d4d, #007373, #00cccc);
+          background-size: 400% 400%;
+          animation: fondoAnimado 10s ease infinite;
+          color: white;
+          text-align: center;
+        }
+    
+        @keyframes fondoAnimado {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+    
+        header {
+          padding: 20px;
+          background: rgba(0, 0, 0, 0.7);
+        }
+    
+        nav ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+        }
+    
+        nav ul li {
+          margin: 0 20px;
+        }
+    
+        nav ul li a {
+          text-decoration: none;
+          color: #00e6e6;
+          font-size: 20px;
+          transition: color 0.3s ease;
+        }
+    
+        nav ul li a:hover {
+          color: white;
+        }
+    
+        .contacto {
+          margin-top: 50px;
+          padding: 20px;
+        }
+    
+        .contacto h1 {
+          font-size: 42px;
+          color: #00ffff;
+          margin-bottom: 30px;
+        }
+    
+        .contacto-item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 20px;
+        }
+    
+        .contacto-item img {
+          width: 35px;
+          height: 35px;
+          margin-right: 15px;
+          filter: invert(100%);
+        }
+    
+        .paloma-container {
+          position: relative;
+          margin-top: 100px;
+        }
+    
+        .paloma {
+          width: 100px;
+          position: absolute;
+          bottom: 0;
+          left: 10%;
+          animation: vueloPaloma 6s infinite ease-in-out;
+        }
+    
+        @keyframes vueloPaloma {
+          0% { transform: translateX(0); }
+          50% { transform: translateX(400px) translateY(-20px); }
+          100% { transform: translateX(0); }
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobremi.html">Sobre mí</a></li>
+            <li><a href="contactos.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <div class="contacto">
+        <h1>Contacto</h1>
+        <div class="contacto-item">
+          <img src="" alt="Instagram">
+          <p><strong>Instagram:</strong> @annuar__el</p>
+        </div>
+        <div class="contacto-item">
+          <img src="" alt="Teléfono">
+          <p><strong>Teléfono:</strong> +34 631 123 456</p>
+        </div>
+        <div class="contacto-item">
+          <img src="" alt="Email">
+          <p><strong>Email:</strong> aelamran1@milaifontanals.org</p>
+        </div>
+    
+        <div class="paloma-container">
+          <img src="img/robin.png" alt="Paloma mensajera" class="paloma">
+          <p><strong>Robin, la paloma mensajera:</strong> Siempre lista para entregar tu mensaje.</p>
+        </div>
+      </div>
+    </body>
+    </html>
+    
